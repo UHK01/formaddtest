@@ -23,5 +23,7 @@ function deleteBtn(target) {
   var ipt_id = document.getElementById('inputform_' + target_id);
   var tgt_id = document.getElementById(target_id);
   parent.removeChild(ipt_id);
-  parent.removeChild(tgt_id);	
+  parent.removeChild(tgt_id);
+  
+  i--
 }
